@@ -149,3 +149,4 @@ price_array.npy
 # vscode
 /.vscode
 tutorials/1-Introduction/China_A_share_market_tushare-jvsc-94a7706c-b2df-4424-ae88-6b82ec3a956e9082f4d5-d55c-4eb8-8064-5f454d304bbc.ipynb
+tutorials/1-Introduction/*.csv
