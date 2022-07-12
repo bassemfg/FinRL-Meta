@@ -13,8 +13,12 @@ from stable_baselines3.common.noise import NormalActionNoise
 from stable_baselines3.common.noise import OrnsteinUhlenbeckActionNoise
 from stable_baselines3.common.vec_env import DummyVecEnv
 
+
+import sys
+sys.path.insert(2, '/home/bassem/code/FinRL-Meta/meta/env_stock_trading/')
+
 from meta import config
-from meta.env_stock_trading.env_stock_trading import StockTradingEnv
+from env_stock_trading import StockTradingEnv
 
 # RL models from stable-baselines
 

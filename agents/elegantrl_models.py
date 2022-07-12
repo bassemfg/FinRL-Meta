@@ -38,7 +38,7 @@ class DRLAgent:
             make a prediction in a test dataset and get results
     """
 
-    def __init__(self, env, price_array, tech_array, turbulence_array):
+    def __init__(self, env, price_array, tech_array, turbulence_array=None):
         self.env = env
         self.price_array = price_array
         self.tech_array = tech_array
